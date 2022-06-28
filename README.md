@@ -30,3 +30,9 @@
 # docker container prune 
 # docker container kill
 # docker run -p 80:80 -d --restart=always jacksoncalixto/hello-docker
+# docker events
+# docker top
+# docker stats
+# docker run -p 81:80 -d -m 512m jacksoncalixto/hello-docker
+# docker run -p 81:80 -d -m 512m --cpu-quota 5000 jacksoncalixto/hello-docker
+# docker system df
