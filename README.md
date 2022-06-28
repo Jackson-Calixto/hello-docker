@@ -5,8 +5,10 @@
 
 # docker build -t hello-docker:0.0.1-SNAPSHOT .
 # docker tag hello-docker:0.0.1-SNAPSHOT jacksoncalixto/hello-docker:0.0.1-SNAPSHOT
+# docker tag jacksoncalixto/hello-docker:0.0.2-SNAPSHOT jacksoncalixto/hello-docker:latest
 # docker login docker.io
 # docker push jacksoncalixto/hello-docker:0.0.1-SNAPSHOT
+# docker push jacksoncalixto/hello-docker:latest
 
 # Troubleshoot / reset factory default
 # docker run jacksoncalixto/hello-docker:0.0.1-SNAPSHOT
@@ -19,3 +21,7 @@
 # docker image history mariadb
 # docker image inspect mariadb
 # docker image remove mariadb / docker rmi mariadb
+
+# docker container ls
+# docker container pause 
+# docker container unpause 
