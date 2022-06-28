@@ -14,3 +14,4 @@
 # docker container ls
 # docker logs 
 # docker logs -f
+# docker search mysql --filter is-official=true
