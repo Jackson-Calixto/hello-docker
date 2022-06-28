@@ -15,3 +15,7 @@
 # docker logs 
 # docker logs -f
 # docker search mysql --filter is-official=true
+# docker pull mariadb
+# docker image history mariadb
+# docker image inspect mariadb
+# docker image remove mariadb / docker rmi mariadb
